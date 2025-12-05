@@ -1,11 +1,11 @@
-# 🍽 COOKINGAPP — Ứng dụng Hướng Dẫn Nấu Ăn
+# COOKINGAPP — Ứng dụng Hướng Dẫn Nấu Ăn
 
 CookingApp là ứng dụng giúp người dùng xem công thức nấu ăn, xem chi tiết nguyên liệu, bước chế biến và lưu món ăn yêu thích một cách nhanh chóng.  
-Ứng dụng được phát triển bằng **React Native + Expo**, tương thích Android & iOS.
+Ứng dụng được phát triển bằng React Native + Expo, tương thích Android & iOS.
 
 ---
 
-## 🌟 Mục tiêu dự án
+## Mục tiêu dự án
 
 - Xây dựng kho công thức món ăn Việt Nam kèm hình ảnh thực tế  
 - Hỗ trợ người mới nấu ăn dễ tiếp cận thông qua hướng dẫn chi tiết  
@@ -18,44 +18,17 @@ CookingApp là ứng dụng giúp người dùng xem công thức nấu ăn, xem
 
 | Tính năng | Mô tả |
 |---|---|
-| 📜 Danh sách món ăn | Hiển thị list món có hình ảnh + mô tả |
-| 🔍 Xem chi tiết món | Xem **nguyên liệu**, **cách chế biến**, thời gian nấu |
-| ❤️ lưu Favorite | Người dùng đánh dấu món yêu thích, lưu lại không mất |
-| 👤 Tài khoản người dùng | Đăng nhập / đăng ký, lưu trạng thái với UserContext |
-| 🔔 Thông báo món mới | Có thể phát triển để push thông báo cập nhật |
-| 🧭 Điều hướng hiện đại | Bottom Tab + Stack Navigation trực quan |
-| 🗂 Lưu dữ liệu cục bộ | Async Storage giúp giữ Favorite ngay cả khi thoát app |
+| Danh sách món ăn | Hiển thị list món có hình ảnh + mô tả |
+| Xem chi tiết món | Xem nguyên liệu, cách chế biến, thời gian nấu |
+| lưu Favorite | Người dùng đánh dấu món yêu thích, lưu lại không mất |
+| Tài khoản người dùng | Đăng nhập / đăng ký, lưu trạng thái với UserContext |
+| Thông báo món mới | Có thể phát triển để push thông báo cập nhật |
 
 ---
 
-## 📁 Cấu trúc thư mục dự án
+## Kiến trúc và luồng hoạt động
 
-CookingApp/
-├─ assets/ # Kho ảnh 50+ món ăn Việt Nam
-│ ├─ bunbohue.jpg, banhxeo.jpg,...
-│ └─ meocute.png (ảnh user mặc định)
-├─ screens/
-│ ├─ Home.js # Mặc định hiển thị danh sách món
-│ ├─ RecipeDetail.js # Chi tiết món - nguyên liệu + bước làm
-│ ├─ Favorites.js # Danh sách món đã lưu
-│ ├─ Profile.js # Trang cá nhân người dùng
-│ ├─ Notification.js # Màn hình thông báo
-│ ├─ Login.js / Signup.js # Xác thực tài khoản
-├─ contexts/
-│ ├─ UserContext.js # Lưu trạng thái đăng nhập
-│ └─ FavoriteContext.js # Quản lý Favorite global
-├─ navigation/
-│ ├─ TabNavigator.js # Điều hướng tab chính Home-Favorite-Profile
-├─ App.js # Entry chính của ứng dụng
-├─ app.json / eas.json # Config Expo + build mobile
-├─ package.json # Thư viện và scripts
-└─ README.md # File mô tả này
-
----
-
-## 🔧 Kiến trúc và luồng hoạt động
-
-Ứng dụng sử dụng **Context API** làm state management chính:
+Ứng dụng sử dụng Context API làm state management chính:
 Login / Signup → UserContext → Profile / App navigation
 ↓
 FavoriteContext → Favorites Screen (render real-time)
@@ -64,7 +37,7 @@ FavoriteContext → Favorites Screen (render real-time)
 
 ---
 
-## 🛠 Công nghệ sử dụng
+## Công nghệ sử dụng
 
 | Công nghệ | Vai trò |
 |---|---|
@@ -76,10 +49,10 @@ FavoriteContext → Favorites Screen (render real-time)
 
 ---
 
-## 🚀 Cách cài đặt và chạy dự án
+## Cách cài đặt và chạy dự án
  📌 Bây giờ bạn chỉ cần:
 
 🔹 Vào repo CookingApp  
-🔹 Bấm **Add README** → paste nội dung ở trên vào  
+🔹 Bấm Add README → paste nội dung ở trên vào  
 🔹 Commit → README sẽ hiển thị ngay lập tức ⭐
 
