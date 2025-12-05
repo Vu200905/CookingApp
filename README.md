@@ -77,20 +77,9 @@ FavoriteContext → Favorites Screen (render real-time)
 ---
 
 ## 🚀 Cách cài đặt và chạy dự án
-
-```bash
-npm install
-npx expo start
-
----
-
-### 📌 Bây giờ bạn chỉ cần:
+ 📌 Bây giờ bạn chỉ cần:
 
 🔹 Vào repo CookingApp  
 🔹 Bấm **Add README** → paste nội dung ở trên vào  
 🔹 Commit → README sẽ hiển thị ngay lập tức ⭐
-
----
-
-Nếu bạn muốn mình làm phiên bản README **có banner, màu UI, thêm icon, screenshot… đẹp như Landing Page**, chỉ cần gửi 2–3 hình giao diện ứng dụng 👉 mình sẽ nâng cấp lên UI cực đẹp cho bạn 😎🔥
 
