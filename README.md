@@ -14,7 +14,7 @@ CookingApp là ứng dụng giúp người dùng xem công thức nấu ăn, xem
 
 ---
 
-## 🚀 Tính năng nổi bật
+## Tính năng nổi bật
 
 | Tính năng | Mô tả |
 |---|---|
@@ -33,7 +33,7 @@ Login / Signup → UserContext → Profile / App navigation
 ↓
 FavoriteContext → Favorites Screen (render real-time)
 
-📌 Khi người dùng nhấn Favorite → context cập nhật → UI render lại ngay không cần reload.
+Khi người dùng nhấn Favorite → context cập nhật → UI render lại ngay không cần reload.
 
 ---
 
@@ -50,7 +50,7 @@ FavoriteContext → Favorites Screen (render real-time)
 ---
 
 ## Cách cài đặt và chạy dự án
- 📌 Bây giờ bạn chỉ cần:
+ Bây giờ bạn chỉ cần:
 
 🔹 Vào repo CookingApp  
 🔹 Bấm Add README → paste nội dung ở trên vào  
